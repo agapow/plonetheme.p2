@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.3b'
+version = '0.3.1b'
 
 setup(
 	name='plonetheme.p2',

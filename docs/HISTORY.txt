@@ -6,3 +6,7 @@ Changelog
 
 * Initial release
 
+0.3.1b - 2009/07/01
+-------------------
+
+* Included missed documentation files (facepalm)

@@ -1,2 +1,5 @@
 recursive-include plonetheme *
 global-exclude *pyc
+include README.txt
+recursive-include docs *
+include plonetheme.p2-configure.zcml
