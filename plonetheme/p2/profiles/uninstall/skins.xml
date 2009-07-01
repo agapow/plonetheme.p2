@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool" 
+	allow_any="False" cookie_persistence="False"
+   default_skin="Plone Default" request_varname="plone_skin">
+
+	<object name="plonetheme_p2_custom_images" meta_type="Filesystem Directory View" remove="True"/>
+	<object name="plonetheme_p2_custom_templates" meta_type="Filesystem Directory View" remove="True"/>
+	<object name="plonetheme_p2_styles" meta_type="Filesystem Directory View" remove="True"/>
+	
+	<skin-path name="P2 theme" remove="True"/>
+
+</object>

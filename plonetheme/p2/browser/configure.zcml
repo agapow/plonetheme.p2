@@ -1,0 +1,64 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="plonetheme.p2">
+
+	<!-- 'P2 theme' Zope 3 browser layer -->
+	<interface
+		interface=".interfaces.IThemeSpecific"
+		type="zope.publisher.interfaces.browser.IBrowserSkinType"
+		name="P2 theme"
+	/>
+
+	<!-- Viewlets registration -->
+	<!-- Zope 3 browser resources -->
+
+	<!-- Resource directory for images -->
+	<browser:resourceDirectory
+		name="plonetheme.p2.images"
+		directory="images"
+		layer=".interfaces.IThemeSpecific"
+	/>
+
+	<!-- Resource directory for stylesheets -->
+	<browser:resourceDirectory
+		name="plonetheme.p2.stylesheets"
+		directory="stylesheets"
+		layer=".interfaces.IThemeSpecific"
+	/>
+	
+	<!--change the manager of site_actions-->
+	<browser:viewlet
+		name="plone.site_actions"
+		manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+		class="plone.app.layout.viewlets.common.SiteActionsViewlet"
+		permission="zope2.View"
+		layer=".interfaces.IThemeSpecific"
+	/>
+	
+	<!--change the manager of global_sections-->
+	<browser:viewlet
+		name="plone.global_sections"
+		manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+		class="plone.app.layout.viewlets.common.GlobalSectionsViewlet"
+		permission="zope2.View"
+		layer=".interfaces.IThemeSpecific"
+	/>
+	
+	<!-- The customized footer -->
+	<browser:viewlet
+		name="plone.footer"
+		for="*"
+		manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+		layer=".interfaces.IThemeSpecific"
+		template="footer.pt"
+		permission="zope.Public"
+	/>
+
+
+
+
+
+
+
+</configure>

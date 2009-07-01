@@ -1,0 +1,23 @@
+<configure
+	xmlns="http://namespaces.zope.org/zope"
+	xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+	i18n_domain="plonetheme.p2">
+
+<genericsetup:registerProfile
+	name="default"
+	title="P2 theme"
+	directory="profiles/default"
+	description='Extension profile for the P2 Plone theme.'
+	provides="Products.GenericSetup.interfaces.EXTENSION"
+/>
+
+<genericsetup:registerProfile
+	name="uninstall"
+	title="P2 theme Uninstall Profile"
+	directory="profiles/uninstall"
+	description="Removes P2 theme."
+	provides="Products.GenericSetup.interfaces.EXTENSION"
+	for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+/>
+
+</configure>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<object>
+
+	<hidden manager="plone.portalheader" skinname="P2 theme" >
+		<viewlet name="plone.site_actions" />
+		<viewlet name="plone.global_sections" />
+	</hidden>
+
+	<order manager="plone.portalfooter" skinname="P2 theme" >
+		<viewlet name="plone.global_sections" />
+		<viewlet name="plone.footer" />
+		<viewlet name="plone.site_actions" />
+		<viewlet name="plone.colophon" />
+	</order>
+
+</object>

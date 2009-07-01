@@ -1,0 +1,185 @@
+/*  
+Theme Name: P2
+Version: 1.0.4
+Author: Joseph Scott, Matt Thomas, Noel Jackson, and Automattic
+Author URI: http://automattic.com/.
+*/
+
+/*** MAIN BODY & ELEMENTS ***/
+body {
+	background: #f1f1f1;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 75%;
+	margin: 0;
+	padding: 1.0em 2.0em;
+}
+
+#portal-columns, #portal-footer, #portal-logo img {
+	background: white;
+	border: 1px solid lightgray;
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/*** TOPMATTER ***/
+
+#portal-logo img {
+	padding: 0;
+	margin: 0;
+}
+
+#portal-searchbox {
+	margin: 0.5em 0 0 0;
+	padding: 0 1.0em 0 0;
+}
+
+#portal-breadcrumbs, #portal-personaltools {
+	border-width: 0;
+	font-size: 1.0em;
+	line-height: 1.0em;
+	padding: 0;
+	margin: 0;
+	text-transform: none;
+}
+
+
+#portal-breadcrumbs {
+	margin-bottom: 0.6em;
+}
+
+#portal-personaltools {
+	margin-bottom: -1.2em;
+}
+
+#portal-personaltools li a {
+	color: #3478E3 !important;
+}
+
+/*** MAIN TEXT ***/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0; 
+	font-style: normal;
+	font-weight: 100 !important; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 15px !important;
+	margin-bottom: 5px !important;
+}
+
+h1 {
+	font-size: 3em;
+	border-bottom-width: 0;
+}
+
+h2 {
+	font-size: 2em;
+	color: #555;
+	padding-top: 20px;
+	border-color: #555;
+}
+
+h3 {
+	font-size: 1.3em;
+	color: #777;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+
+h4, h5, h6 {
+	font-weight: 500;
+}
+
+.documentFirstHeading {
+	padding-top: 0 !important;
+}
+
+code, pre {
+	font-family: Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Links */
+
+a, a:visited, a:active {
+	color: #3478E3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d54e21;
+	border-bottom: 1px solid #bbb;
+}
+
+
+
+/*** BOTTOM MATTER ***/
+#portal-footer {
+	margin: 12px 0px;
+}
+
+#portal-globalnav {
+	display: block !important;
+	margin: 6px auto 18px auto;
+	text-align:center;
+	border: none;
+	font-weight: bold;
+	font-size: 120%;
+	color: rgb (52, 102, 227);
+}
+
+#portal-globalnav li a, #portal-globalnav li #selected{
+	margin: 0.5em 3.0em;
+	border-width: 0 !important;
+}
+
+#portal-siteactions {
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	text-align:center;
+	border-width: 0;
+	font-size: 90%;
+}
+
+#portal-siteactions li a {
+	border-width: 0;
+}
+
+
+/*** SIDE BARS ***/
+
+.portlet, .portletHeader, .portletItem, .portletFooter {
+	border-width: 0 !important;
+	border-color: transparent !important;
+}
+
+.portalItem {
+	border-width: 0 !important;
+	border-color: transparent !important;
+}
+
+.portletHeader, .portletHeader a, .portletHeader a:hover {
+	text-transform: none !important;
+	font-size: 1.3em;
+	color: #777 !important;
+	font-weight: 100 !important; 
+	background-color: transparent;
+}
+
+.even {
+	background-color: transparent;
+}
+
+#portal-column-one {
+	color: #777;
+}
+
+
