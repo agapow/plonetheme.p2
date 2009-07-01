@@ -6,42 +6,6 @@ content and footer (for those with recent browsers), elegant san serif fonts,
 with site and global tabs moved to the bottom of the page.
 
 
-Installation
-============
-
-Install P2 as you would any other egg-ified Plone extension:
-
-1. With setuptools::
-	
-	% easy_install plonetheme.p2
-	
-2. Download, unarchive and install the package::
-	
-	% plone_python setup.py install --home /path/to/instance
-
-Then create a file called ``plonetheme.p2-configure.zcml`` in the Zope instance
-``etc/package-includes`` that contains::
-	
-	<include package="plonetheme.p2" />
-
-3. Edit ``buildout.cfg`` ::
-	
-	[buildout]
-	...
-	eggs =
-		plonetheme.p2
-	...
-
-	[instance]
-	...
-	zcml =
-		plonetheme.p2
-       
-Then re-run buildout::
- 
-    % ./bin/buildout
-
-
 Developers notes
 ================
 
