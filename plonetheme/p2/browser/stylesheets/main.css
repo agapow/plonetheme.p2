@@ -14,7 +14,7 @@ body {
 	padding: 1.0em 2.0em;
 }
 
-#portal-columns, #portal-footer, #portal-logo img {
+#portal-columns, #portal-footer {
 	background: white;
 	border: 1px solid lightgray;
 	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.3.1b'
+version = open (os.path.join("plonetheme", "p2", "version.txt")).read().strip()
 
 setup(
 	name='plonetheme.p2',

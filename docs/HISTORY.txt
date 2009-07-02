@@ -10,3 +10,10 @@ Changelog
 -------------------
 
 * Included missed documentation files (facepalm)
+
+0.3.2b - 2009/07/02
+-------------------
+
+* Updated documentation (phrasing & installation instructions)
+
+* Removed shadow from logo box
